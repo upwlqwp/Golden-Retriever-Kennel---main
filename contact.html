@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+
+<div class="wrapper">
+  <header class="header-main">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo" href="index.html">
+          <picture class="logo__img">
+            <source media="(min-width:650px)" srcset="images/logo.svg" />
+            <source media="(min-width:465px)" srcset="images/logo-mobile.svg" />
+            <img
+              src="images/logo-mobile.svg"
+              alt="logo"
+              style="width: auto"
+              width="90"
+              height="90"
+            />
+          </picture>
+        </a>
+       
+        <nav class="menu">
+          <button class="burger" type="button">
+            <span class="burger__lines"> </span>
+          </button>
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="index.html">Home</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="questions.html">Q&A</a>
+            </li>
+        
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="catalog.html">Puppies</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="contact.html">Contact us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  
+<main class="main">
+
+<section class="contacts">
+  <div class="container">
+    <h2 class="section-title contacts__title">Contact us</h2>
+
+    <p class="contacts__text">
+      Feel free to contact us with questions, potencial partnerships or media
+      inquiries
+    </p>
+    <form class="form" action="/apply/" method="post">
+      <div class="form__wrapper">
+        <label for="name"
+          ><input
+            class="form__input"
+            type="text"
+            name="your name"
+            id="name"
+            placeholder="name"
+            required
+            autofocus
+        /></label>
+        <label for="email"
+          ><input
+            class="form__input"
+            type="email"
+            name="your email"
+            id="email"
+            placeholder="email"
+            required
+            autofocus
+        /></label>
+      </div>
+      <label for="message">
+        <textarea
+          class="form__textarea"
+          id="message"
+          placeholder="your message"
+          name="message"
+          cols="33"
+          rows="5"
+        ></textarea>
+      </label>
+      <button class="form__btn button" type="submit">Submit</button>
+    </form>
+  </div>
+</section>
+
+
+
+
+</main>
+
+
+<footer class="footer">
+
+  <div class="container">
+
+    <nav class="footer__menu">
+
+      <ul class="footer__menu-list">
+
+        <li class="footer__menu-item">
+
+          <h3 class="footer__menu-headline">Products</h3>
+
+        </li>
+
+        <li class="footer__menu-item">
+
+          <a class="footer__menu-link" href="#">Used</a>
+
+        </li>
+
+        <li class="footer__menu-item">
+
+          <a class="footer__menu-link" href="#">New</a>
+
+        </li>
+
+        <li class="footer__menu-item">
+
+          <a class="footer__menu-link" href="#">Buy</a>
+
+        </li>
+
+      </ul>
+
+
+
+      <ul class="footer__menu-list">
+
+        <li class="footer__menu-item">
+
+          <h3 class="footer__menu-headline">Resources</h3>
+
+        </li>
+
+        <li class="footer__menu-item">
+
+          <a class="footer__menu-link" href="#">Blog</a>
+
+        </li>
+
+        <li class="footer__menu-item">
+
+          <a class="footer__menu-link" href="#">FAQ</a>
+
+        </li>
+
+        <li class="footer__menu-item">
+
+          <a class="footer__menu-link" href="#">Contact us</a>
+
+        </li>
+
+      </ul>
+
+      <ul class="footer__menu-list">
+
+        <li class="footer__menu-item">
+
+          <h3 class="footer__menu-headline">Registration and Services</h3>
+
+        </li>
+
+        <li class="footer__menu-item">
+
+          <a class="footer__menu-link" href="#">The Kennel Club Pet</a>
+
+        </li>
+
+        <li class="footer__menu-item">
+
+          <a class="footer__menu-link" href="#">Partners</a>
+
+        </li>
+
+      </ul>
+
+      <ul class="footer__menu-list">
+
+        <li class="footer__menu-item">
+
+          <h3 class="footer__menu-headline">About us</h3>
+
+        </li>
+
+        <li class="footer__menu-item">
+
+          <a class="footer__menu-link" href="#">About the Kennel Club</a>
+
+        </li>
+
+        <li class="footer__menu-item">
+
+          <a class="footer__menu-link" href="#">Job opportunities</a>
+
+        </li>
+
+        <li class="footer__menu-item">
+
+          <a class="footer__menu-link" href="#">Our Facillties</a>
+
+        </li>
+
+      </ul>
+
+    </nav>
+
+
+
+
+
+    <div class="footer__copy">
+
+      <p>
+
+        Copyright © The Kennel Club Limited 2023. The unauthorised reproduction of text and images is strictly prohibited.
+
+      </p>
+
+      <p>
+
+      
+
+        By accessing this website, you agree to the TrueCar Terms of Service and
+
+        Privacy Policy.
+
+      </p>
+
+    </div>
+
+
+
+    <nav class="copy__nav">
+
+      <ul class="copy__nav-list">
+
+        <li class="copy__nav-item">
+
+          <a class="copy__nav-link" href="#">Terms of Service</a>
+
+        </li>
+
+        <li class="copy__nav-item">
+
+          <a class="copy__nav-link" href="#">Privacy Policy</a>
+
+        </li>
+
+        <li class="copy__nav-item">
+
+          <a class="copy__nav-link" href="#"
+
+            >Do Not Sell My Personal Information</a
+
+          >
+
+        </li>
+
+      </ul>
+
+
+
+      <div class="social">
+
+        <ul class="social__list">
+
+          <li class="social__item">
+
+            <a class="social__link" href="#">
+
+              <svg >
+
+                <use xlink:href="images/sprite.svg#facebook"></use>
+
+              </svg>
+
+            </a>
+
+          </li>
+
+          <li class="social__item">
+
+            <a class="social__link" href="#">
+
+              <svg>
+
+                <use xlink:href="images/sprite.svg#youtube"></use>
+
+              </svg>
+
+            </a>
+
+          </li>
+
+          <li class="social__item">
+
+            <a class="social__link" href="#">
+
+              <svg>
+
+                <use xlink:href="images/sprite.svg#instagram"></use>
+
+              </svg>
+
+            </a>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+  </div>
+
+</footer>
+
+
+
+</div>
+<script src="js/main.min.js"></script>
+</body>
+</html>
